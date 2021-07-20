@@ -1,0 +1,28 @@
+{
+  "name": "eleda",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smileyteke/eleda_design.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smileyteke/eleda_design/issues"
+  },
+  "homepage": "https://github.com/smileyteke/eleda_design#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-plugin-react": "^7.23.2",
+    "nodemon": "^2.0.7"
+  }
+}
